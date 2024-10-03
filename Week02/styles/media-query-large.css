@@ -1,0 +1,16 @@
+@media screen  and (min-width: 500px){
+    h1{font-size: 2.5rem;
+        margin: 1rem;
+        color: navy;
+    }
+}
+
+header{
+    background: gray;
+    color: black;
+}
+
+main{
+    grid-template-columns: 1fr 1fr;
+}
+
