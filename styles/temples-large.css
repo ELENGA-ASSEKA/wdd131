@@ -1,0 +1,26 @@
+@media(min-width:610px){
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        
+    }
+
+    nav ul li{
+        flex: 1 1 100%;
+        
+    }
+    nav a{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 2px;
+        padding: 2px;
+        
+        }
+    
+}
+nav a:hover{
+    text-decoration: overline;
+    border: 1px solid gainsboro;
+    
+}

@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Cherokee:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+   
+}
+body{
+    border: 1px solid grey;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header{
+    font-weight: 700;border-bottom: 1px solid black;margin-bottom: 1rem;
+    padding: 30px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+main{
+    margin: 1rem auto;max-width: 960px;
+}
+
+div{
+    display: grid;grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));grid-gap: 12px;place-items: center;
+}
+figcaption, img, figure{
+    background-color: bisque;
+    font-size: smaller;
+}
+img{
+    margin: .5rem;
+}
+footer, header{
+    background-color: rgb(94, 255, 0);
+    
+}
+footer{
+    text-align: center;
+    padding: 12px;
+}
+figcaption{
+    text-align: center;
+}
