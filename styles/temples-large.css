@@ -2,6 +2,7 @@
     nav ul{
         list-style-type: none;
         display: flex;
+        z-index: 1000;
         
     }
 
@@ -17,10 +18,28 @@
         padding: 2px;
         
         }
-    
+
+        /*Hide hamburger*/
+        #hamburger{
+            display: none;
+            font-size: 25px;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+    #hamburger{
+    display: block;
+}
+.active{
+    display: flex;
+}
 }
 nav a:hover{
     text-decoration: overline;
     border: 1px solid gainsboro;
     
+}
+
+#nav-links.active{
+    display: flex;
 }
