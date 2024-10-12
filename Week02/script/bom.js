@@ -10,3 +10,10 @@ delecteButton.textContent = "❌";
 
 li.append(delecteButton);
 list.append(li)
+
+
+
+
+const handleTabletChange = (e) => {    if (e.matches) {        navLinks.classList.remove('active');        hamburger.style.display = 'block';    } else {        navLinks.classList.add('active');        hamburger.style.display = 'none';    }};
+
+
