@@ -5,6 +5,11 @@
     max-height: 100%;
 
 }
+
+h3{
+    text-align: center;
+    padding: 20px;
+}
 body{
     
     font-family: monospace;text-transform: capitalize;
@@ -20,11 +25,13 @@ h1{
     padding: 20px;
 }
 nav{
+    background-color: aliceblue;
     justify-content: center;
     padding: 15px;
     
 }
 nav ul{
+    
     display: flex;
     text-align: center;
     justify-content: center;
@@ -75,6 +82,7 @@ footer{
 }
 h2{
     text-align: center;
+    padding: 10px;
 }
 .image{
     /*width: 100%;*/
