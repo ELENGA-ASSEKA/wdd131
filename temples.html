@@ -12,16 +12,22 @@
 <body>
     <header>
         <h1 class="title">Temples Album</h1>
-
-        <nav class="home-page">
+        <button class="menu-btn" onclick="this.classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="menu" id="link">
             <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="old">Old</a></li>
-                <li><a href="new">New</a></li>
-                <li><a href="large">Large</a></li>
-                <li><a href="small">Small</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#old">Old</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#large">Large</a></li>
+                <li><a href="#small">Small</a></li>
             </ul>
+           
         </nav>
+        
     </header>
     <h1 class="home">Home</h1>
     <main>
