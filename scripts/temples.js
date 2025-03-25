@@ -4,17 +4,26 @@ document.getElementById('year').innerHTML =`&copy; ${year}`;
 document.getElementById('lastModified').innerHTML=`Last Modification: ${document.lastModified}`;
 
 
-/*function myMenuFunction(){
-   var span = document.getElementById('link');
+function toggle(){
+   let menu = document.getElementById('menu');
 
-   if (span.className === "home-pge") {
-    span.className += "responsive";
+   if (menu.style.display === "block") {
+      menu.style.display= "none";
    }
         else{
-            span.className = "home-page"
+            menu.style.display = "block"
    }
-*/
-/*menu button js */
+}
+
+document.addEventListener("click", function(event) {
+   let menu = document.getElementById("menu");
+   let button = document.querySelector("menu-button");
+
+   if (!menu.contains(event.target) && !button.contains(event.target)){
+      menu.style.display = "none";
+   }
+})
+/*menu button js 
 const menuBtn = document.querySelector(".menu-btn");
 menuBtn.addEventListener("click", () =>{
    menuBtn.classList.toggle("active");
@@ -23,5 +32,6 @@ menuBtn.addEventListener("click", () =>{
 const menu = document.querySelector(".menu");
 menuBtn.addEventListener("click", () => {
    menuBtn.classList.toggle("active");
-   menu.classList.toggle("active");
-})
+   menu.classList.toggle("active");&
+})*/
+

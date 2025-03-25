@@ -69,7 +69,7 @@ main{
    .menu{
     top: 80px;
     position: absolute;
-    display: flex;
+    display: none;
     justify-content: center;
     background: black;
     width: 100%;
