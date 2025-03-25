@@ -15,15 +15,7 @@ function toggle(){
    }
 }
 
-document.addEventListener("click", function(event) {
-   let menu = document.getElementById("menu");
-   let button = document.querySelector("menu-button");
-
-   if (!menu.contains(event.target) && !button.contains(event.target)){
-      menu.style.display = "none";
-   }
-})
-/*menu button js 
+/*menu button js */
 const menuBtn = document.querySelector(".menu-btn");
 menuBtn.addEventListener("click", () =>{
    menuBtn.classList.toggle("active");
@@ -32,6 +24,6 @@ menuBtn.addEventListener("click", () =>{
 const menu = document.querySelector(".menu");
 menuBtn.addEventListener("click", () => {
    menuBtn.classList.toggle("active");
-   menu.classList.toggle("active");&
-})*/
+   menu.classList.toggle("active");
+})
 
