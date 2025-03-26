@@ -9,6 +9,9 @@ body{
     text-align: center;
     border: 1px solid black;
 }
+.menu.active{
+    display: flex;
+}
 header, ul{
     display: flex;
     color: white;
