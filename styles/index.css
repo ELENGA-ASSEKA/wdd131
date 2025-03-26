@@ -3,9 +3,7 @@
     padding: 0;
     max-width: 100%;
     max-height: 100%;
-
 }
-
 
 h3{
     text-align: center;
@@ -33,7 +31,6 @@ nav{
     
 }
 nav ul{
-    
     display: flex;
     text-align: center;
     justify-content: center;
@@ -45,13 +42,9 @@ nav ul{
     list-style-type: none;
 }
 .section-1{
-    /*background-color: white;*/
-    border: 1px solid black;
-    
-   
+    border: 1px solid black;  
 }
 .section-2{
-    /*background-color: white;*/
     border: 1px solid black;
 }
 section{
@@ -87,7 +80,6 @@ h2{
     padding: 10px;
 }
 .image{
-    /*width: 100%;*/
     float: right;
     right: 100px;
 }
@@ -103,7 +95,6 @@ h2{
         position: relative;
     }
     .links{
-        
         top: 0;
     }
 }
