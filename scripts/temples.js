@@ -16,14 +16,17 @@ function toggle(){
 }
 
 /*menu button js */
+
 const menuBtn = document.querySelector(".menu-btn");
 menuBtn.addEventListener("click", () =>{
    menuBtn.classList.toggle("active");
-})
+});
 
+
+/*menu active*/
 const menu = document.querySelector(".menu");
 menuBtn.addEventListener("click", () => {
    menuBtn.classList.toggle("active");
    menu.classList.toggle("active");
-})
+});
 
