@@ -66,9 +66,13 @@ h1{
     /*.home-page.responsive{
         top: 100px;
     }*/
+
+    header, ul{
+        flex-direction: column;
+    }
+
    .menu{
     top: 80px;
-    position: absolute;
     display: none;
     justify-content: center;
     background: black;
@@ -103,6 +107,7 @@ h1{
    }
    
    .menu-btn{
+        position: relative;
         width: 40px;
         height: 30px;
         display: flex;
@@ -113,6 +118,8 @@ h1{
         padding: 2.5px;
         border-radius: 5px;
         font-size: 25px;
+        left: 150px;
+        top: -25px;
    }
    .menu-btn span{
     transform: 0.3s;
