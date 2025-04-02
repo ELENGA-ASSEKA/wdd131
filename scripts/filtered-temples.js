@@ -85,7 +85,24 @@ const temples = [
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
-   
+    {
+      templeName: "Burley Idaho",
+      location: "Burley, Idaho,United States",
+      dedicated: "2022, June, 4",
+      area: 38600,
+      imageUrl:
+      "https://churchofjesuschristtemples.org/assets/img/temples/burley-idaho-temple/burley-idaho-temple-57842.jpg"
+    },
+    
+    {
+      templeName: "Accra Ghana",
+      location: "Accra, Ghana",
+      dedicated: "2004, January, 11",
+      area:17500,
+      imageUrl:
+      "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-5151.jpg"
+    }
+
   ];
 
 createTempleCard(temples);
