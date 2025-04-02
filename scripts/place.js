@@ -39,3 +39,7 @@ console.log("Temperature:", temperature + "°C");
 console.log("Wind Speed:", windSpeed + "km/h");
 console.log("Wind Chill:", calculateWindChill(temperature, windSpeed));
 
+let DOMcondition = document.getElementById("condition");
+
+DOMcondition.innerHTML = condition;
+
