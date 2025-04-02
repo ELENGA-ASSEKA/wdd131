@@ -12,6 +12,7 @@ body{
 .menu.active{
     display: flex;
 }
+
 header, ul{
     display: flex;
     color: white;

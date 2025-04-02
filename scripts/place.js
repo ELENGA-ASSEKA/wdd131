@@ -38,3 +38,4 @@ console.log("Weather Condition:", condition);
 console.log("Temperature:", temperature + "°C");
 console.log("Wind Speed:", windSpeed + "km/h");
 console.log("Wind Chill:", calculateWindChill(temperature, windSpeed));
+

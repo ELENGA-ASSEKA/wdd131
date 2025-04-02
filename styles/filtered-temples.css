@@ -42,7 +42,6 @@ li, a{
 }
 .home{
     padding: 40px;
-    
 }
 
 a:hover{
@@ -57,8 +56,15 @@ h1{
 .title{
     
 }
-
-main{
+.res-grid, section{
+    background-color: aqua;
+    margin-bottom: 3px;
+}
+.res-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.figure{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding:0px;
@@ -67,9 +73,13 @@ main{
     /*.home-page.responsive{
         top: 100px;
     }*/
+
+    header, ul{
+        flex-direction: column;
+    }
+
    .menu{
     top: 80px;
-    position: absolute;
     display: none;
     justify-content: center;
     background: black;
@@ -77,14 +87,19 @@ main{
     height: 35vh;
     backdrop-filter: blur(20px);
     transition: .3s;
-    left: -0.2px;
+    left: -0.2px; 
    }
-   main{
+   .figure{
     display: block;
     justify-content: center;
 
    }
+   .res-grid{
+    display: block;
+   }
+   
    .menu ul{
+    
         display: table-column;     
    }
    .menu li{
@@ -93,13 +108,17 @@ main{
    }
    .home{
     position: relative;
-    top: 0px;
+    top: 0;
    text-align: center;
-    margin-bottom: 140px;
-    margin-top: 0;
+    margin-bottom: 4px;
+    
+   }
+   main{
+    
    }
    
    .menu-btn{
+        position: relative;
         width: 40px;
         height: 30px;
         display: flex;
@@ -110,6 +129,8 @@ main{
         padding: 2.5px;
         border-radius: 5px;
         font-size: 25px;
+        left: 150px;
+        top: -25px;
    }
    .menu-btn span{
     transform: 0.3s;
