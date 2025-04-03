@@ -63,7 +63,14 @@ h1{
 .res-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
+/*img[src*="burley-idaho-temple"],
+img[src*="accra-gahna-temple"] {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}*/
 .figure{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

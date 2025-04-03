@@ -7,6 +7,7 @@ document.getElementById("lastModified").innerHTML = `LastModification: ${documen
 let temperature = 22;
 let windSpeed = 16;
 let condition = "Sunny";
+let windChill = 10;
 
 // function to convert celsius to Fahrenheit
 function celsiusToFahrenheit (celsius) {
@@ -40,6 +41,14 @@ console.log("Wind Speed:", windSpeed + "km/h");
 console.log("Wind Chill:", calculateWindChill(temperature, windSpeed));
 
 let DOMcondition = document.getElementById("condition");
-
 DOMcondition.innerHTML = condition;
+
+let DOMtemperature = document.getElementById("temperature");
+DOMtemperature.innerHTML = temperature;
+
+let DOMwindSpeed = document.getElementById("windSpeed");
+DOMwindSpeed.innerHTML = windSpeed;
+
+let DOMwindChill = document.getElementById("windChill");
+DOMwindChill.innerHTML = windChill;
 
