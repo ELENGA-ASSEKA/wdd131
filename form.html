@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <meta name="description" content="In this assignment,I will create product review form page,and use good form design includind submission button.">
+    <meta name="author" content="Aristid Wilbrech ELENGA-ASSEKA">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form action="form-review">
+            <section class="product-name">
+                <label for="text"><acronym title="product">Product Name:</acronym></label><br><br>
+                <select name="product-name" id="product-name">
+                    <option value="0">Select The Products</option>
+                    <option value="1">Food</option>
+                    <option value="2">Motivation Speech</option>
+                    <option value="3">English Cours</option>
+                    <option value="4">Tourism Site</option>
+                    <option value="5">Cinema</option>
+                    <option value="6">Comedy</option>
+                    <option value="7">Fruits</option>
+                </select>
+            </section>
+
+            <section class="stars">
+                <label for="text">Overiall Rating</label>
+                <input type="radio" id="fivestar" name="star" value="5" required><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="star" value="4" required><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="star" value="3" required><label for="threestar"></label>
+                <input type="radio" id="twostar" name="star" value="2" required><label for="twostar"></label>
+                <input type="radio" id="onestar" name="star" value="1" required><label for="onestar"></label>
+            </section>
+
+            <section class="date">
+                <label for="date">Date Of Installaton</label><br>
+                <input type="date">
+            </section>
+
+            <section class="checkbox">
+                <label for="checkbox">Which Feature Did Find Useful In The Product?<br>(Check All That Apply)  </label><br>
+               
+                <input type="checkbox" id="checkbox" name="charset" value="1">
+                <label for="">Fanny</label>
+                
+                <input type="checkbox" id="checkbox" name="checkbox" value="2">
+                <label for="">Enjoyable</label>
+                
+                <input type="checkbox" id="checkbox" name="checkbox" value="3">
+                <label for="">Bord</label>
+                
+                <input type="checkbox" id="checkbox" name="checkbox" value="4">
+                <label for="">Very Good</label>
+                
+                <input type="checkbox" id="checkbox" name="checkbox" value="5">
+                <label for="">I Apreciate</label>
+            </section>
+
+            <section class="textarea">
+                <label for="textarea">Written Review </label><br>
+                <textarea name="text" id="text"></textarea>
+            </section>
+
+            <section class="username">
+                <label for="username">Your Name</label>
+                <input type="text" id="name" name="username">
+            </section>
+
+            <section class="submission">
+                <input type="submit" value="Poste Review">
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <p><span id="year"></span> &#9830; Aristid Wilbrech ELENGA-ASSEKA &#9830; congo brazzaville.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
