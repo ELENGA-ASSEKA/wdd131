@@ -7,7 +7,7 @@
     <script src="scripts/form.js" defer></script>
     <meta name="description" content="In this assignment,I will create product review form page,and use good form design includind submission button.">
     <meta name="author" content="Aristid Wilbrech ELENGA-ASSEKA">
-    <title>Form</title>
+    <title>Product Review Form</title>
 </head>
 <body>
     <header>
@@ -15,9 +15,9 @@
     </header>
 
     <main>
-        <form method="get" action="form-review">
+        <form method="get" action="review.html">
             <section class="product-name">
-                <label class="product" for="text"><h2>Product Name:</h2></label><br>
+                <label class="product" for="text">Product Name:</label><br>
                 <select name="products" id="products">
                     <option value="0">Select The Products</option>
                     <option value="1">Food</option>
@@ -31,19 +31,18 @@
             </section>
 
             <section class="stars">
-                <label for="text"><h2>Overiall Rating</h2></label><br><br>
-                <div class="rating" id="rating" required>
-                <input type="radio" id="fivestar" name="star" value="5" required class="Star"><label for="fivestar"></label>
-                <input type="radio" id="fourstar" name="star" value="4" required class="Star"><label for="fourstar"></label>
-                <input type="radio" id="threestar" name="star" value="3" required class="Star"><label for="threestar"></label>
-                <input type="radio" id="twostar" name="star" value="2" required class="Star"><label for="twostar"></label>
-                <input type="radio" id="onestar" name="star" value="1" required class="Star"><label for="onestar"></label>
-                
-               
+                <label for="text">Overiall Rating</label><br><br>
+                <div class="rating" id="rating" >
+                    <input type="radio" id="fivestar" name="star" value="5" required class="Star"><label for="fivestar"></label>
+                    <input type="radio" id="fourstar" name="star" value="4" required class="Star"><label for="fourstar"></label>
+                    <input type="radio" id="threestar" name="star" value="3" required class="Star"><label for="threestar"></label>
+                    <input type="radio" id="twostar" name="star" value="2" required class="Star"><label for="twostar"></label>
+                    <input type="radio" id="onestar" name="star" value="1" required class="Star"><label for="onestar"></label> 
+                </div> 
             </section>
 
             <section class="Date">
-                <label for="date"><h2>Date Of Installaton</h2></label><br>
+                <label for="date">Date Of Installaton</label><br>
                 <input type="date" class="daTe" required>
             </section><br>
 
@@ -85,12 +84,12 @@
             </section>
 
             <section class="textarea">
-                <label for="textarea" class="txt"><h2>Written Review</h2> </label><br>
+                <label for="textarea" class="txt">Written Review</label><br>
                 <textarea name="text" id="text"></textarea>
             </section>
 
             <section class="username">
-                <label for="username"><h2>Your Name</h2></label><br>
+                <label for="username">Your Name</label><br>
                 <input type="text" id="name" name="username" class="user">
             </section>
 
