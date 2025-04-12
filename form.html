@@ -15,7 +15,7 @@
     </header>
 
     <main>
-        <form action="form-review">
+        <form method="get" action="form-review">
             <section class="product-name">
                 <label class="product" for="text"><h2>Product Name:</h2></label><br>
                 <select name="products" id="products">
@@ -32,7 +32,7 @@
 
             <section class="stars">
                 <label for="text"><h2>Overiall Rating</h2></label><br><br>
-                <div class="rating" id="rating">
+                <div class="rating" id="rating" required>
                 <input type="radio" id="fivestar" name="star" value="5" required class="Star"><label for="fivestar"></label>
                 <input type="radio" id="fourstar" name="star" value="4" required class="Star"><label for="fourstar"></label>
                 <input type="radio" id="threestar" name="star" value="3" required class="Star"><label for="threestar"></label>
@@ -44,7 +44,7 @@
 
             <section class="Date">
                 <label for="date"><h2>Date Of Installaton</h2></label><br>
-                <input type="date" class="daTe">
+                <input type="date" class="daTe" required>
             </section><br>
 
             <section class="checkbox">
