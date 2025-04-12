@@ -17,7 +17,7 @@
     <main>
         <form action="form-review">
             <section class="product-name">
-                <label for="text"><acronym title="product">Product Name:</acronym></label><br><br>
+                <label class="product" for="text"><h2>Product Name:</h2></label><br>
                 <select name="product-name" id="product-name">
                     <option value="0">Select The Products</option>
                     <option value="1">Food</option>
@@ -31,50 +31,71 @@
             </section>
 
             <section class="stars">
-                <label for="text">Overiall Rating</label>
-                <input type="radio" id="fivestar" name="star" value="5" required><label for="fivestar"></label>
-                <input type="radio" id="fourstar" name="star" value="4" required><label for="fourstar"></label>
-                <input type="radio" id="threestar" name="star" value="3" required><label for="threestar"></label>
-                <input type="radio" id="twostar" name="star" value="2" required><label for="twostar"></label>
-                <input type="radio" id="onestar" name="star" value="1" required><label for="onestar"></label>
+                <label for="text"><h2>Overiall Rating</h2></label><br><br>
+                <div class="rating" id="rating">
+                <input type="radio" id="fivestar" name="star" value="5" required class="Star"><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="star" value="4" required class="Star"><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="star" value="3" required class="Star"><label for="threestar"></label>
+                <input type="radio" id="twostar" name="star" value="2" required class="Star"><label for="twostar"></label>
+                <input type="radio" id="onestar" name="star" value="1" required class="Star"><label for="onestar"></label>
+                
+               
             </section>
 
-            <section class="date">
-                <label for="date">Date Of Installaton</label><br>
-                <input type="date">
-            </section>
+            <section class="Date">
+                <label for="date"><h2>Date Of Installaton</h2></label><br>
+                <input type="date" class="daTe">
+            </section><br>
 
             <section class="checkbox">
-                <label for="checkbox">Which Feature Did Find Useful In The Product?<br>(Check All That Apply)  </label><br>
+                <label>Feature Did Find Useful In The Product?<br>(Check All That Apply)</label><br><br>
                
-                <input type="checkbox" id="checkbox" name="charset" value="1">
-                <label for="">Fanny</label>
-                
-                <input type="checkbox" id="checkbox" name="checkbox" value="2">
-                <label for="">Enjoyable</label>
-                
-                <input type="checkbox" id="checkbox" name="checkbox" value="3">
-                <label for="">Bord</label>
-                
-                <input type="checkbox" id="checkbox" name="checkbox" value="4">
-                <label for="">Very Good</label>
-                
-                <input type="checkbox" id="checkbox" name="checkbox" value="5">
-                <label for="">I Apreciate</label>
+                <div class="check">
+                    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                        
+                        <input type="checkbox" name="alice_martin">
+                        <span style="width: 150px;">Fanny</span>
+                      </div>
+                    
+                      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                        
+                        <input type="checkbox" name="bob_durand">
+                        <span style="width: 150px;">Salty</span>
+                      </div>
+                    
+                      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                        
+                        <input type="checkbox" name="clara_dupuis">
+                        <span style="width: 150px;">Boring</span>
+                      </div>
+                    
+                      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                        
+                        <input type="checkbox" name="david_morel">
+                        <span style="width: 150px;">Fantastical</span>
+                      </div>
+                    
+                      <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                        
+                        <input type="checkbox" name="emma_noel">
+                        <span style="width: 150px;">Beautiful</span>
+                      </div>
+                    
+                </div>
             </section>
 
             <section class="textarea">
-                <label for="textarea">Written Review </label><br>
+                <label for="textarea" class="txt"><h2>Written Review</h2> </label><br>
                 <textarea name="text" id="text"></textarea>
             </section>
 
             <section class="username">
-                <label for="username">Your Name</label>
-                <input type="text" id="name" name="username">
+                <label for="username"><h2>Your Name</h2></label><br>
+                <input type="text" id="name" name="username" class="user">
             </section>
 
             <section class="submission">
-                <input type="submit" value="Poste Review">
+                <input type="submit" value="Poste Review" class="Poste">
             </section>
         </form>
     </main>
