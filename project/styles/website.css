@@ -10,24 +10,24 @@ body{
     border: 1px solid darkblue;
     max-width: 100%;
 }
-.link{
+ul{
     position: relative;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     gap: 70px;
-    right: -150px;
-    top: 55px;
-    
+    right: -20px;
+    top: 55px;  
 }
 a{
     text-decoration: none;
     font-size: 20px;
+    color: snow;
     
     
 }
 a:hover{
-    color: honeydew;
+    color: gray;
 }
 
 main img{
@@ -48,8 +48,7 @@ header{
 }
 .container{
     display: flex;
-    text-align: center;
-    justify-content: space-between;
+    
     
 }h1{
     text-align: center;
@@ -59,4 +58,19 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+}
+@media(max-width:650px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        left: -10px;
+        justify-content: none;
+        gap: 5px;
+        
+    }
+    ul{
+        top: 0;
+        gap: 5px;
+        right: 0;
+    }
 }

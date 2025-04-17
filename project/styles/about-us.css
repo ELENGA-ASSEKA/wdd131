@@ -26,18 +26,15 @@ main{
     padding: 50px;
     font-size: 20px;
  }
-
  .container-2{
     border: 1px solid blue;
     margin: 15px;
     display: none;
-    
  }
 
  .swiched{
     text-align: center;
     font-size: 26px;
-   
  }
  .swiched:hover{
     color: black;
