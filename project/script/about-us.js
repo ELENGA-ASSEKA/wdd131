@@ -7,5 +7,5 @@ let functionLink = document.getElementById("showhide");
 let swichedSection = document.getElementById("main");
 
 functionLink.addEventListener("click", () => {
-    swichedSection.classList.toggle(switced)
+    swichedSection.classList.toggle("swiched")
 })

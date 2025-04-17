@@ -33,9 +33,18 @@ main{
     display: none;
     
  }
- .swiched.container-2{
+
+ .swiched{
+    text-align: center;
+    font-size: 26px;
+   
+ }
+ .swiched:hover{
+    color: black;
+ }
+ .swiched .container-2{
     display: grid;
 }
-.swiched.container-1{
+.swiched .container-1{
     display: none;
 }
