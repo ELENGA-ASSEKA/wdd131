@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="script/contact.js" defer></script>
+    <title>Contact</title>
+    <meta name="author" content="Aristid Wilbrech ELENGA-ASSEKA">
+    <meta name="description" content="This page is made to allow visiters to contact for service or for more information">
+</head>
+<body>
+    <header>
+        <h1>Contact Me For More Informations</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="info-1">
+                <label for="name">First-Name</label>
+                <input type="text" required>
+            </div>
+            <div class="info-2">
+                <label for="name">Last Name</label>
+                <input type="text" required>
+            </div>
+            <div class="info-3">
+                <label for="num">Number</label>
+                <input type="text" required>
+            </div>
+            <div class="info-4">
+                <input type="button" id="button" value="Submit" class="button"><br> <br>
+            </div>
+        </div>
+        <section class="stars">
+            <label for="text">Overiall Rating</label><br>
+            <div class="rating" id="rating" >
+                <input type="radio" id="fivestar" name="star" value="5" required class="Star"><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="star" value="4" required class="Star"><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="star" value="3" required class="Star"><label for="threestar"></label>
+                <input type="radio" id="twostar" name="star" value="2" required class="Star"><label for="twostar"></label>
+                <input type="radio" id="onestar" name="star" value="1" required class="Star"><label for="onestar"></label> 
+            </div> 
+        </section>
+    </main>
+
+    <footer>
+        <p><span id="year"></span>&#9830;aristid wilbrech ELENGA-ASSEKA&#9830;congo brazzaville.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

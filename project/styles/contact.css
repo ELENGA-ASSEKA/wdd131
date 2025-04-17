@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+    max-width: 100%;
+   
+}
+body{
+    background-color: gray;
+    margin: 10px auto;
+    border: 2px solid blue;
+    max-width: 100%;
+    text-align: center;
+    height: 100%;
+   
+}
+main{
+    background-color: #ff69b4;
+    border-radius: 5%;
+    height: 500px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+ section{
+    
+    
+}
+.button{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    right: -27px;
+    border-radius: 8%;
+}
+.button:hover{
+    background-color: gray;
+}
+.container{
+    
+    display: grid;
+    grid-template-rows: 150px 150px 50px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+
+header{
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border: 1px solid blue;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    
+    
+}
+
+.rating input{
+    display: none;
+}
+
+.rating > label {
+    width: 30px;
+    height: 30px;
+    font-family: arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: orange;
+}
+
+.rating:hover{
+    color: #ff69b4;
+    transition: 0.2s ease;
+}
+
+.rating label:active::before{
+    transform:scale(1.1);
+}
+.stars{
+    margin-bottom: 20px;
+    
+}
+
+.rating input:checked ~ label::before{
+    content: '\2605';
+}
+
+.rating label::before{
+    content: '\2606';
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+}
+label{
+    font-size: 16px;
+}
